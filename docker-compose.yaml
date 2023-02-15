@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  testban:
+    image: dockerimg:v1 
+    container_name: ashuc1
+    ports:
+    - 1122:80
